@@ -1,0 +1,47 @@
+V3 27
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhd" 2020/10/27.00:13:37 P.20131013
+EN work/Desplegador 1603781168 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/Desplegador/Behavioral 1603781169 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhd" \
+      EN work/Desplegador 1603781168
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Generador_magen.vhd" 2020/10/27.00:05:47 P.20131013
+EN work/Generador_magen 1603781164 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Generador_magen.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/Generador_magen/Behavioral 1603781165 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Generador_magen.vhd" \
+      EN work/Generador_magen 1603781164
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" 2020/10/27.00:45:48 P.20131013
+EN work/rom_2 1603781166 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_2/Behavioral 1603781167 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" \
+      EN work/rom_2 1603781166
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_clk_25.vhd" 2020/10/26.23:35:05 P.20131013
+EN work/vga_clk_25 1603781160 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_clk_25.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
+      PH unisim/VCOMPONENTS 1381692182
+AR work/vga_clk_25/BEHAVIORAL 1603781161 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_clk_25.vhd" \
+      EN work/vga_clk_25 1603781160 CP BUFG CP IBUFG CP DCM_SP
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_sync.vhd" 2020/10/27.00:22:13 P.20131013
+EN work/VGA_sync 1603781162 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_sync.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/VGA_sync/Behavioral 1603781163 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_sync.vhd" \
+      EN work/VGA_sync 1603781162
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" 2020/10/26.23:29:41 P.20131013
+EN work/vga_top 1603781170 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/vga_top/Behavioral 1603781171 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" \
+      EN work/vga_top 1603781170 CP vga_clk_25 CP VGA_sync CP Generador_magen \
+      CP rom_2 CP Desplegador

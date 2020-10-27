@@ -1,0 +1,76 @@
+ISim log file
+Running: /media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/sim_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/sim_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 17 ms
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /sim/uut/Inst_Generador_magen/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /sim/uut/Inst_rom_2/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /sim/uut/Inst_rom_2/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 14400342287 ps(6), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14410901869 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14426901229 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14442900589 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14458899949 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14474899309 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14490898669 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14506898029 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14522897389 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14538896749 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14554896109 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14570895469 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14586894829 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14602894189 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14618893549 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14634892909 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14650892269 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14666891629 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14682890989 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14698890349 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14714889709 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14730889069 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14746888429 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14762887789 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14778887149 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14794886509 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14810885869 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14816325647 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14826885229 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14842884589 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14858883949 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14874883309 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14890882669 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14906882029 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14922881389 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14938880749 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14954880109 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14970879469 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 14986878829 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15002878189 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15018877549 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15034876909 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15050876269 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15066875629 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15082874989 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15098874349 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15114873709 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15130873069 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15146872429 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15162871789 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15178871149 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15194870509 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15200310287 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 15616293647 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 16000278287 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 16416261647 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+at 16800246287 ps(5), Instance /sim/uut/Inst_VGA_sync/ : Warning: NUMERIC_STD.TO_UNSIGNED: vector truncated
+# exit 0
+# exit 0

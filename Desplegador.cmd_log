@@ -1,0 +1,2 @@
+vhdtdtfi -prj VGA_controlador -o "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhi" -module Desplegador -template /media/omar/Documentos/xilinx_ubuntu/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Desplegador.vhd 
+vhdtdtfi -prj VGA_controlador -o "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhi" -module Desplegador -template /media/omar/Documentos/xilinx_ubuntu/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work Desplegador.vhd 

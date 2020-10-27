@@ -1,0 +1,12 @@
+EN vga_sync NULL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_sync.vhd" sub00/vhpl02 1603781162
+AR desplegador behavioral "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhd" sub00/vhpl09 1603781169
+EN generador_magen NULL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Generador_magen.vhd" sub00/vhpl04 1603781164
+AR vga_top behavioral "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" sub00/vhpl11 1603781171
+AR generador_magen behavioral "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Generador_magen.vhd" sub00/vhpl05 1603781165
+EN desplegador NULL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhd" sub00/vhpl08 1603781168
+AR vga_sync behavioral "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_sync.vhd" sub00/vhpl03 1603781163
+AR vga_clk_25 behavioral "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_clk_25.vhd" sub00/vhpl01 1603781161
+AR rom_2 behavioral "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" sub00/vhpl07 1603781167
+EN vga_clk_25 NULL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_clk_25.vhd" sub00/vhpl00 1603781160
+EN rom_2 NULL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" sub00/vhpl06 1603781166
+EN vga_top NULL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" sub00/vhpl10 1603781170

@@ -1,0 +1,47 @@
+Running: /media/omar/Documentos/xilinx_ubuntu/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/sim_isim_beh.exe -prj /media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/sim_beh.prj work.sim 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_sync.vhd" into library work
+Parsing VHDL file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" into library work
+Parsing VHDL file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_clk_25.vhd" into library work
+Parsing VHDL file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Generador_magen.vhd" into library work
+Parsing VHDL file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhd" into library work
+Parsing VHDL file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" into library work
+Parsing VHDL file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/sim.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 118172 KB
+Fuse CPU Usage: 1190 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package vcomponents
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package textio
+Compiling package vital_timing
+Compiling package vital_primitives
+Compiling package vpkg
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture ibufg_v of entity IBUFG [\IBUFG("DONT_CARE","0",true,"DEF...]
+Compiling architecture dcm_sp_clock_divide_by_2_v of entity dcm_sp_clock_divide_by_2 [dcm_sp_clock_divide_by_2_default]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_maximum_period_check_v of entity dcm_sp_maximum_period_check [\dcm_sp_maximum_period_check("*"...]
+Compiling architecture dcm_sp_clock_lost_v of entity dcm_sp_clock_lost [dcm_sp_clock_lost_default]
+Compiling architecture dcm_sp_v of entity DCM_SP [\DCM_SP(true,"*",true,false,2.0,...]
+Compiling architecture behavioral of entity vga_clk_25 [vga_clk_25_default]
+Compiling architecture behavioral of entity VGA_sync [\VGA_sync(96,264,664,800,2,75,47...]
+Compiling architecture behavioral of entity Generador_magen [\Generador_magen(('0','0','0','1...]
+Compiling architecture behavioral of entity rom_2 [rom_2_default]
+Compiling architecture behavioral of entity Desplegador [desplegador_default]
+Compiling architecture behavioral of entity vga_top [vga_top_default]
+Compiling architecture behavior of entity sim
+Time Resolution for simulation is 1ps.
+Waiting for 10 sub-compilation(s) to finish...
+Compiled 37 VHDL Units
+Built simulation executable /media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/sim_isim_beh.exe
+Fuse Memory Usage: 708696 KB
+Fuse CPU Usage: 1570 ms
+GCC CPU Usage: 6280 ms

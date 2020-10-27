@@ -1,0 +1,16 @@
+# Output products list for <rom_c>
+_xmsgs/pn_parser.xmsgs
+rom_c/dist_mem_gen_v7_2_readme.txt
+rom_c/doc/dist_mem_gen_v7_2_vinfo.html
+rom_c/doc/pg063-dist-mem-gen.pdf
+rom_c.asy
+rom_c.gise
+rom_c.mif
+rom_c.ngc
+rom_c.sym
+rom_c.vhd
+rom_c.vho
+rom_c.xco
+rom_c.xise
+rom_c_flist.txt
+rom_c_xmdf.tcl

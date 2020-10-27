@@ -1,0 +1,15 @@
+# Output products list for <rom_02>
+rom_02/blk_mem_gen_v7_3_readme.txt
+rom_02/doc/blk_mem_gen_v7_3_vinfo.html
+rom_02/doc/pg058-blk-mem-gen.pdf
+rom_02.asy
+rom_02.gise
+rom_02.ngc
+rom_02.sym
+rom_02.vhd
+rom_02.vho
+rom_02.xco
+rom_02.xise
+rom_02_flist.txt
+rom_02_xmdf.tcl
+summary.log

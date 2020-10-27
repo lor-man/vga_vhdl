@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.ncd
+OUTFILE=/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador
+LICENSE=WebPack
+USER_INFO=212012819_0_0_876

@@ -1,0 +1,6 @@
+vhdl work "vga_sync.vhd"
+vhdl work "rom_2.vhd"
+vhdl work "vga_clk_25.vhd"
+vhdl work "Generador_magen.vhd"
+vhdl work "Desplegador.vhd"
+vhdl work "vga_top.vhd"
