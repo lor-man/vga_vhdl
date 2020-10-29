@@ -1,0 +1,5 @@
+set -tmpdir "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/xst/projnav.tmp"
+set -xsthdpdir "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/xst"
+elaborate
+-ifn mux_rom.prj
+-ifmt mixed

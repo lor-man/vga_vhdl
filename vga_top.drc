@@ -1,7 +1,7 @@
 Release 14.7 Drc P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Tue Oct 27 00:47:49 2020
+Wed Oct 28 23:30:59 2020
 
 drc -z vga_top.ncd vga_top.pcf
 
@@ -24,5 +24,37 @@ WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
    block:<Inst_rom_2/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
 WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
    block:<Inst_rom_2/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
-DRC detected 0 errors and 8 warnings.  Please see the previously displayed
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+DRC detected 0 errors and 24 warnings.  Please see the previously displayed
 individual error or warning messages for more details.

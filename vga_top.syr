@@ -4,15 +4,15 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.08 secs
  
 --> 
 Reading design: vga_top.prj
@@ -113,13 +113,49 @@ Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_contr
 Architecture behavioral of Entity vga_sync is up to date.
 Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Generador_magen.vhd" in Library work.
 Architecture behavioral of Entity generador_magen is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/selector_img.vhd" in Library work.
+Architecture behavioral of Entity selector_img is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_0.vhd" in Library work.
+Architecture behavioral of Entity rom_0 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_1.vhd" in Library work.
+Architecture behavioral of Entity rom_1 is up to date.
 Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" in Library work.
-Entity <rom_2> compiled.
-Entity <rom_2> (Architecture <behavioral>) compiled.
+Architecture behavioral of Entity rom_2 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_3.vhd" in Library work.
+Architecture behavioral of Entity rom_3 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_4.vhd" in Library work.
+Architecture behavioral of Entity rom_4 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_5.vhd" in Library work.
+Architecture behavioral of Entity rom_5 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_6.vhd" in Library work.
+Architecture behavioral of Entity rom_6 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_7.vhd" in Library work.
+Architecture behavioral of Entity rom_7 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_8.vhd" in Library work.
+Architecture behavioral of Entity rom_8 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_9.vhd" in Library work.
+Architecture behavioral of Entity rom_9 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_10.vhd" in Library work.
+Architecture behavioral of Entity rom_10 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_11.vhd" in Library work.
+Architecture behavioral of Entity rom_11 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_12.vhd" in Library work.
+Architecture behavioral of Entity rom_12 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_13.vhd" in Library work.
+Architecture behavioral of Entity rom_13 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_14.vhd" in Library work.
+Architecture behavioral of Entity rom_14 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_15.vhd" in Library work.
+Architecture behavioral of Entity rom_15 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_16.vhd" in Library work.
+Architecture behavioral of Entity rom_16 is up to date.
+Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/mux_rom.vhd" in Library work.
+Architecture behavioral of Entity mux_rom is up to date.
 Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhd" in Library work.
 Architecture behavioral of Entity desplegador is up to date.
 Compiling vhdl file "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" in Library work.
-Architecture behavioral of Entity vga_top is up to date.
+Entity <vga_top> compiled.
+Entity <vga_top> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
@@ -142,7 +178,43 @@ Analyzing hierarchy for entity <Generador_magen> in library <work> (architecture
 	mult = "1111"
 	sum = "0001"
 
+Analyzing hierarchy for entity <selector_img> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_0> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_1> in library <work> (architecture <behavioral>).
+
 Analyzing hierarchy for entity <rom_2> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_3> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_4> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_5> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_6> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_7> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_8> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_9> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_10> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_11> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_12> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_13> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_14> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_15> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <rom_16> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <mux_rom> in library <work> (architecture <behavioral>).
 
 Analyzing hierarchy for entity <Desplegador> in library <work> (architecture <behavioral>).
 
@@ -191,8 +263,62 @@ Analyzing generic Entity <Generador_magen> in library <work> (Architecture <beha
 	sum = "0001"
 Entity <Generador_magen> analyzed. Unit <Generador_magen> generated.
 
+Analyzing Entity <selector_img> in library <work> (Architecture <behavioral>).
+Entity <selector_img> analyzed. Unit <selector_img> generated.
+
+Analyzing Entity <rom_0> in library <work> (Architecture <behavioral>).
+Entity <rom_0> analyzed. Unit <rom_0> generated.
+
+Analyzing Entity <rom_1> in library <work> (Architecture <behavioral>).
+Entity <rom_1> analyzed. Unit <rom_1> generated.
+
 Analyzing Entity <rom_2> in library <work> (Architecture <behavioral>).
 Entity <rom_2> analyzed. Unit <rom_2> generated.
+
+Analyzing Entity <rom_3> in library <work> (Architecture <behavioral>).
+Entity <rom_3> analyzed. Unit <rom_3> generated.
+
+Analyzing Entity <rom_4> in library <work> (Architecture <behavioral>).
+Entity <rom_4> analyzed. Unit <rom_4> generated.
+
+Analyzing Entity <rom_5> in library <work> (Architecture <behavioral>).
+Entity <rom_5> analyzed. Unit <rom_5> generated.
+
+Analyzing Entity <rom_6> in library <work> (Architecture <behavioral>).
+Entity <rom_6> analyzed. Unit <rom_6> generated.
+
+Analyzing Entity <rom_7> in library <work> (Architecture <behavioral>).
+Entity <rom_7> analyzed. Unit <rom_7> generated.
+
+Analyzing Entity <rom_8> in library <work> (Architecture <behavioral>).
+Entity <rom_8> analyzed. Unit <rom_8> generated.
+
+Analyzing Entity <rom_9> in library <work> (Architecture <behavioral>).
+Entity <rom_9> analyzed. Unit <rom_9> generated.
+
+Analyzing Entity <rom_10> in library <work> (Architecture <behavioral>).
+Entity <rom_10> analyzed. Unit <rom_10> generated.
+
+Analyzing Entity <rom_11> in library <work> (Architecture <behavioral>).
+Entity <rom_11> analyzed. Unit <rom_11> generated.
+
+Analyzing Entity <rom_12> in library <work> (Architecture <behavioral>).
+Entity <rom_12> analyzed. Unit <rom_12> generated.
+
+Analyzing Entity <rom_13> in library <work> (Architecture <behavioral>).
+Entity <rom_13> analyzed. Unit <rom_13> generated.
+
+Analyzing Entity <rom_14> in library <work> (Architecture <behavioral>).
+Entity <rom_14> analyzed. Unit <rom_14> generated.
+
+Analyzing Entity <rom_15> in library <work> (Architecture <behavioral>).
+Entity <rom_15> analyzed. Unit <rom_15> generated.
+
+Analyzing Entity <rom_16> in library <work> (Architecture <behavioral>).
+Entity <rom_16> analyzed. Unit <rom_16> generated.
+
+Analyzing Entity <mux_rom> in library <work> (Architecture <behavioral>).
+Entity <mux_rom> analyzed. Unit <mux_rom> generated.
 
 Analyzing Entity <Desplegador> in library <work> (Architecture <behavioral>).
 Entity <Desplegador> analyzed. Unit <Desplegador> generated.
@@ -241,6 +367,34 @@ Synthesizing Unit <Generador_magen>.
 Unit <Generador_magen> synthesized.
 
 
+Synthesizing Unit <selector_img>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/selector_img.vhd".
+    Found 1-of-16 decoder for signal <rom_enable>.
+    Summary:
+	inferred   1 Decoder(s).
+Unit <selector_img> synthesized.
+
+
+Synthesizing Unit <rom_0>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_0.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 51.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_0> synthesized.
+
+
+Synthesizing Unit <rom_1>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_1.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 51.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_1> synthesized.
+
+
 Synthesizing Unit <rom_2>.
     Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd".
     Found 256x8-bit ROM for signal <rdata$rom0000> created at line 56.
@@ -249,6 +403,154 @@ Synthesizing Unit <rom_2>.
 	inferred   1 ROM(s).
 	inferred   8 D-type flip-flop(s).
 Unit <rom_2> synthesized.
+
+
+Synthesizing Unit <rom_3>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_3.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 51.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_3> synthesized.
+
+
+Synthesizing Unit <rom_4>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_4.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 51.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_4> synthesized.
+
+
+Synthesizing Unit <rom_5>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_5.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 51.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_5> synthesized.
+
+
+Synthesizing Unit <rom_6>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_6.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 51.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_6> synthesized.
+
+
+Synthesizing Unit <rom_7>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_7.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 51.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_7> synthesized.
+
+
+Synthesizing Unit <rom_8>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_8.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 51.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_8> synthesized.
+
+
+Synthesizing Unit <rom_9>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_9.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 50.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_9> synthesized.
+
+
+Synthesizing Unit <rom_10>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_10.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 50.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_10> synthesized.
+
+
+Synthesizing Unit <rom_11>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_11.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 50.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_11> synthesized.
+
+
+Synthesizing Unit <rom_12>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_12.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 58.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_12> synthesized.
+
+
+Synthesizing Unit <rom_13>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_13.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 59.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_13> synthesized.
+
+
+Synthesizing Unit <rom_14>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_14.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 58.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_14> synthesized.
+
+
+Synthesizing Unit <rom_15>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_15.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 58.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_15> synthesized.
+
+
+Synthesizing Unit <rom_16>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_16.vhd".
+    Found 256x8-bit ROM for signal <rdata$rom0000> created at line 58.
+    Found 8-bit register for signal <DATA>.
+    Summary:
+	inferred   1 ROM(s).
+	inferred   8 D-type flip-flop(s).
+Unit <rom_16> synthesized.
+
+
+Synthesizing Unit <mux_rom>.
+    Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/mux_rom.vhd".
+    Found 8-bit 16-to-1 multiplexer for signal <mux_data_out>.
+    Summary:
+	inferred   8 Multiplexer(s).
+Unit <mux_rom> synthesized.
 
 
 Synthesizing Unit <Desplegador>.
@@ -263,15 +565,19 @@ Unit <vga_clk_25> synthesized.
 
 Synthesizing Unit <vga_top>.
     Related source file is "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd".
+WARNING:Xst:653 - Signal <ena_16> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:646 - Signal <dato_addr_rom_16> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
 Unit <vga_top> synthesized.
 
+WARNING:Xst:524 - All outputs of the instance <Inst_rom_16> of the block <rom_16> are unconnected in block <vga_top>.
+   This instance will be removed from the design along with all underlying logic
 
 =========================================================================
 HDL Synthesis Report
 
 Macro Statistics
-# ROMs                                                 : 1
- 256x8-bit ROM                                         : 1
+# ROMs                                                 : 16
+ 256x8-bit ROM                                         : 16
 # Multipliers                                          : 1
  4x4-bit multiplier                                    : 1
 # Adders/Subtractors                                   : 6
@@ -280,11 +586,15 @@ Macro Statistics
  8-bit adder                                           : 2
 # Counters                                             : 2
  4-bit up counter                                      : 2
-# Registers                                            : 11
+# Registers                                            : 26
  1-bit register                                        : 6
  10-bit register                                       : 2
  5-bit register                                        : 2
- 8-bit register                                        : 1
+ 8-bit register                                        : 16
+# Multiplexers                                         : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+# Decoders                                             : 1
+ 1-of-16 decoder                                       : 1
 
 =========================================================================
 
@@ -292,6 +602,70 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
+
+Synthesizing (advanced) Unit <rom_0>.
+INFO:Xst:3044 - The ROM <Mrom_rdata_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <DATA>.
+INFO:Xst:3225 - The RAM <Mrom_rdata_rom0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     enA            | connected to signal <EN>            | high     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <ADDR>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <DATA>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <rom_0> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_1>.
+INFO:Xst:3044 - The ROM <Mrom_rdata_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <DATA>.
+INFO:Xst:3225 - The RAM <Mrom_rdata_rom0000> will be implemented as BLOCK RAM
+    -----------------------------------------------------------------------
+    | ram_type           | Block                               |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 256-word x 8-bit                    |          |
+    |     mode           | write-first                         |          |
+    |     clkA           | connected to signal <CLK>           | rise     |
+    |     enA            | connected to signal <EN>            | high     |
+    |     weA            | connected to internal node          | high     |
+    |     addrA          | connected to signal <ADDR>          |          |
+    |     diA            | connected to internal node          |          |
+    |     doA            | connected to signal <DATA>          |          |
+    -----------------------------------------------------------------------
+    | optimization       | speed                               |          |
+    -----------------------------------------------------------------------
+Unit <rom_1> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_10>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_10> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_11>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_11> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_12>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_12> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_13>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_13> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_14>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_14> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_15>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_15> synthesized (advanced).
 
 Synthesizing (advanced) Unit <rom_2>.
 INFO:Xst:3044 - The ROM <Mrom_rdata_rom0000> will be implemented as a read-only BLOCK RAM, absorbing the register: <DATA>.
@@ -313,12 +687,42 @@ INFO:Xst:3225 - The RAM <Mrom_rdata_rom0000> will be implemented as BLOCK RAM
     -----------------------------------------------------------------------
 Unit <rom_2> synthesized (advanced).
 
+Synthesizing (advanced) Unit <rom_3>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_3> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_4>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_4> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_5>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_5> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_6>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_6> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_7>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_7> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_8>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_8> synthesized (advanced).
+
+Synthesizing (advanced) Unit <rom_9>.
+INFO:Xst:3045 - The ROM description <Mrom_rdata_rom0000> will be implemented on LUTs because the limited number of device block RAMs. If you want to be implemented as block RAM, please select a larger device.
+Unit <rom_9> synthesized (advanced).
+
 =========================================================================
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 1
- 256x8-bit single-port block RAM                       : 1
+# RAMs                                                 : 3
+ 256x8-bit single-port block RAM                       : 3
+# ROMs                                                 : 13
+ 256x8-bit ROM                                         : 13
 # Multipliers                                          : 1
  4x4-bit multiplier                                    : 1
 # Adders/Subtractors                                   : 6
@@ -327,22 +731,91 @@ Macro Statistics
  8-bit adder                                           : 2
 # Counters                                             : 2
  4-bit up counter                                      : 2
-# Registers                                            : 36
- Flip-Flops                                            : 36
+# Registers                                            : 140
+ Flip-Flops                                            : 140
+# Multiplexers                                         : 1
+ 8-bit 16-to-1 multiplexer                             : 1
+# Decoders                                             : 1
+ 1-of-16 decoder                                       : 1
 
 =========================================================================
 
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
+WARNING:Xst:1710 - FF/Latch <DATA_0> (without init value) has a constant value of 0 in block <rom_6>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATA_1> (without init value) has a constant value of 0 in block <rom_6>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DATA_0> (without init value) has a constant value of 0 in block <rom_10>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATA_1> (without init value) has a constant value of 0 in block <rom_10>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATA_2> (without init value) has a constant value of 0 in block <rom_10>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DATA_3> (without init value) has a constant value of 1 in block <rom_12>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATA_7> (without init value) has a constant value of 1 in block <rom_12>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DATA_3> (without init value) has a constant value of 1 in block <rom_13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATA_7> (without init value) has a constant value of 1 in block <rom_13>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DATA_3> (without init value) has a constant value of 1 in block <rom_14>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATA_7> (without init value) has a constant value of 1 in block <rom_14>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <DATA_3> (without init value) has a constant value of 1 in block <rom_15>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <DATA_7> (without init value) has a constant value of 1 in block <rom_15>. This FF/Latch will be trimmed during the optimization process.
 
 Optimizing unit <vga_top> ...
 
 Optimizing unit <VGA_sync> ...
 
+Optimizing unit <rom_3> ...
+
+Optimizing unit <rom_4> ...
+
+Optimizing unit <rom_5> ...
+
+Optimizing unit <rom_6> ...
+
+Optimizing unit <rom_7> ...
+
+Optimizing unit <rom_8> ...
+
+Optimizing unit <rom_9> ...
+
+Optimizing unit <rom_10> ...
+
+Optimizing unit <rom_11> ...
+
+Optimizing unit <rom_12> ...
+
+Optimizing unit <rom_13> ...
+
+Optimizing unit <rom_14> ...
+
+Optimizing unit <rom_15> ...
+
+Optimizing unit <rom_16> ...
+
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block vga_top, actual ratio is 10.
+Found area constraint ratio of 100 (+ 5) on block vga_top, actual ratio is 76.
+INFO:Xst:2260 - The FF/Latch <Inst_rom_13/DATA_6> in Unit <vga_top> is equivalent to the following 3 FFs/Latches : <Inst_rom_13/DATA_5> <Inst_rom_13/DATA_4> <Inst_rom_13/DATA_2> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_12/DATA_6> in Unit <vga_top> is equivalent to the following 3 FFs/Latches : <Inst_rom_12/DATA_5> <Inst_rom_12/DATA_4> <Inst_rom_12/DATA_2> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_15/DATA_1> in Unit <vga_top> is equivalent to the following FF/Latch : <Inst_rom_15/DATA_0> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_14/DATA_1> in Unit <vga_top> is equivalent to the following FF/Latch : <Inst_rom_14/DATA_0> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_15/DATA_6> in Unit <vga_top> is equivalent to the following 3 FFs/Latches : <Inst_rom_15/DATA_5> <Inst_rom_15/DATA_4> <Inst_rom_15/DATA_2> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_14/DATA_6> in Unit <vga_top> is equivalent to the following 3 FFs/Latches : <Inst_rom_14/DATA_5> <Inst_rom_14/DATA_4> <Inst_rom_14/DATA_2> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_3/DATA_2> in Unit <vga_top> is equivalent to the following 2 FFs/Latches : <Inst_rom_3/DATA_1> <Inst_rom_3/DATA_0> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_3/DATA_4> in Unit <vga_top> is equivalent to the following FF/Latch : <Inst_rom_3/DATA_3> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_3/DATA_7> in Unit <vga_top> is equivalent to the following FF/Latch : <Inst_rom_3/DATA_6> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_10/DATA_7> in Unit <vga_top> is equivalent to the following 4 FFs/Latches : <Inst_rom_10/DATA_6> <Inst_rom_10/DATA_5> <Inst_rom_10/DATA_4> <Inst_rom_10/DATA_3> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_7/DATA_4> in Unit <vga_top> is equivalent to the following 2 FFs/Latches : <Inst_rom_7/DATA_2> <Inst_rom_7/DATA_1> 
+INFO:Xst:2260 - The FF/Latch <Inst_rom_7/DATA_5> in Unit <vga_top> is equivalent to the following FF/Latch : <Inst_rom_7/DATA_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_13/DATA_6> in Unit <vga_top> is equivalent to the following 3 FFs/Latches, which will be removed : <Inst_rom_13/DATA_5> <Inst_rom_13/DATA_4> <Inst_rom_13/DATA_2> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_12/DATA_6> in Unit <vga_top> is equivalent to the following 3 FFs/Latches, which will be removed : <Inst_rom_12/DATA_5> <Inst_rom_12/DATA_4> <Inst_rom_12/DATA_2> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_15/DATA_1> in Unit <vga_top> is equivalent to the following FF/Latch, which will be removed : <Inst_rom_15/DATA_0> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_14/DATA_1> in Unit <vga_top> is equivalent to the following FF/Latch, which will be removed : <Inst_rom_14/DATA_0> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_15/DATA_6> in Unit <vga_top> is equivalent to the following 3 FFs/Latches, which will be removed : <Inst_rom_15/DATA_5> <Inst_rom_15/DATA_4> <Inst_rom_15/DATA_2> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_14/DATA_6> in Unit <vga_top> is equivalent to the following 3 FFs/Latches, which will be removed : <Inst_rom_14/DATA_5> <Inst_rom_14/DATA_4> <Inst_rom_14/DATA_2> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_3/DATA_2> in Unit <vga_top> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_rom_3/DATA_1> <Inst_rom_3/DATA_0> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_3/DATA_4> in Unit <vga_top> is equivalent to the following FF/Latch, which will be removed : <Inst_rom_3/DATA_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_3/DATA_7> in Unit <vga_top> is equivalent to the following FF/Latch, which will be removed : <Inst_rom_3/DATA_6> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_10/DATA_7> in Unit <vga_top> is equivalent to the following 4 FFs/Latches, which will be removed : <Inst_rom_10/DATA_6> <Inst_rom_10/DATA_5> <Inst_rom_10/DATA_4> <Inst_rom_10/DATA_3> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_7/DATA_4> in Unit <vga_top> is equivalent to the following 2 FFs/Latches, which will be removed : <Inst_rom_7/DATA_2> <Inst_rom_7/DATA_1> 
+INFO:Xst:2261 - The FF/Latch <Inst_rom_7/DATA_5> in Unit <vga_top> is equivalent to the following FF/Latch, which will be removed : <Inst_rom_7/DATA_3> 
 
 Final Macro Processing ...
 
@@ -350,8 +823,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 44
- Flip-Flops                                            : 44
+# Registers                                            : 110
+ Flip-Flops                                            : 110
 
 =========================================================================
 
@@ -377,40 +850,44 @@ Optimization Goal                  : Speed
 Keep Hierarchy                     : No
 
 Design Statistics
-# IOs                              : 14
+# IOs                              : 17
 
 Cell Usage :
-# BELS                             : 195
+# BELS                             : 1305
 #      GND                         : 1
-#      INV                         : 4
+#      INV                         : 8
 #      LUT1                        : 20
-#      LUT2                        : 30
-#      LUT3                        : 26
-#      LUT4                        : 38
+#      LUT2                        : 71
+#      LUT3                        : 299
+#      LUT4                        : 435
 #      LUT4_D                      : 2
 #      LUT4_L                      : 3
 #      MULT_AND                    : 1
 #      MUXCY                       : 31
-#      MUXF5                       : 3
+#      MUXF5                       : 261
+#      MUXF6                       : 90
+#      MUXF7                       : 39
+#      MUXF8                       : 8
 #      VCC                         : 1
 #      XORCY                       : 35
-# FlipFlops/Latches                : 44
+# FlipFlops/Latches                : 110
 #      FD                          : 12
 #      FD_1                        : 13
-#      FDE                         : 1
+#      FDE                         : 67
 #      FDE_1                       : 1
 #      FDR                         : 1
 #      FDR_1                       : 1
 #      FDRE                        : 8
 #      FDS                         : 4
 #      FDS_1                       : 3
-# RAMS                             : 1
-#      RAMB16BWE                   : 1
+# RAMS                             : 3
+#      RAMB16BWE                   : 3
 # Clock Buffers                    : 2
 #      BUFG                        : 2
-# IO Buffers                       : 14
+# IO Buffers                       : 17
+#      IBUF                        : 4
 #      IBUFG                       : 1
-#      OBUF                        : 13
+#      OBUF                        : 12
 # DCMs                             : 1
 #      DCM_SP                      : 1
 =========================================================================
@@ -420,12 +897,12 @@ Device utilization summary:
 
 Selected Device : 3s50atq144-5 
 
- Number of Slices:                       67  out of    704     9%  
- Number of Slice Flip Flops:             44  out of   1408     3%  
- Number of 4 input LUTs:                123  out of   1408     8%  
- Number of IOs:                          14
- Number of bonded IOBs:                  14  out of    108    12%  
- Number of BRAMs:                         1  out of      3    33%  
+ Number of Slices:                      478  out of    704    67%  
+ Number of Slice Flip Flops:            110  out of   1408     7%  
+ Number of 4 input LUTs:                838  out of   1408    59%  
+ Number of IOs:                          17
+ Number of bonded IOBs:                  17  out of    108    15%  
+ Number of BRAMs:                         3  out of      3   100%  
  Number of GCLKs:                         2  out of     24     8%  
  Number of DCMs:                          1  out of      2    50%  
 
@@ -453,7 +930,7 @@ Clock Signal                       | Clock buffer(FF name)            | Load  |
 Inst_VGA_sync/clk_2                | NONE(Inst_VGA_sync/columna_cnt_3)| 4     |
 Inst_VGA_sync/clk_3                | NONE(Inst_VGA_sync/fila_cnt_3)   | 4     |
 Inst_VGA_sync/h_sync               | NONE(Inst_VGA_sync/clk_3_cnt_3)  | 18    |
-clk_12                             | Inst_vga_clk_25/DCM_SP_INST:CLKFX| 19    |
+clk_12                             | Inst_vga_clk_25/DCM_SP_INST:CLKFX| 87    |
 -----------------------------------+----------------------------------+-------+
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
 
@@ -466,9 +943,9 @@ Timing Summary:
 Speed Grade: -5
 
    Minimum period: 9.931ns (Maximum Frequency: 100.690MHz)
-   Minimum input arrival time before clock: No path found
-   Maximum output required time after clock: 7.801ns
-   Maximum combinational path delay: 5.721ns
+   Minimum input arrival time before clock: 3.377ns
+   Maximum output required time after clock: 9.493ns
+   Maximum combinational path delay: 8.979ns
 
 Timing Detail:
 --------------
@@ -490,7 +967,7 @@ Delay:               3.587ns (Levels of Logic = 2)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDRE:C->Q             6   0.495   0.677  Inst_VGA_sync/columna_cnt_0 (Inst_VGA_sync/columna_cnt_0)
-     LUT3:I0->O            1   0.561   0.359  Inst_VGA_sync/columna_cnt_and0000_SW0 (N2)
+     LUT3:I0->O            1   0.561   0.359  Inst_VGA_sync/columna_cnt_and0000_SW0 (N73)
      LUT4:I3->O            4   0.561   0.499  Inst_VGA_sync/columna_cnt_and0000 (Inst_VGA_sync/columna_cnt_and0000)
      FDRE:R                    0.435          Inst_VGA_sync/columna_cnt_0
     ----------------------------------------
@@ -499,10 +976,10 @@ Delay:               3.587ns (Levels of Logic = 2)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Inst_VGA_sync/clk_3'
-  Clock period: 3.114ns (frequency: 321.099MHz)
+  Clock period: 3.220ns (frequency: 310.530MHz)
   Total number of paths / destination ports: 26 / 8
 -------------------------------------------------------------------------
-Delay:               3.114ns (Levels of Logic = 2)
+Delay:               3.220ns (Levels of Logic = 2)
   Source:            Inst_VGA_sync/fila_cnt_1 (FF)
   Destination:       Inst_VGA_sync/fila_cnt_3 (FF)
   Source Clock:      Inst_VGA_sync/clk_3 rising
@@ -512,13 +989,13 @@ Delay:               3.114ns (Levels of Logic = 2)
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q            17   0.495   0.895  Inst_VGA_sync/fila_cnt_1 (Inst_VGA_sync/fila_cnt_1)
-     LUT4:I3->O            1   0.561   0.000  Inst_VGA_sync/fila_cnt_and00001 (Inst_VGA_sync/fila_cnt_and00001)
+     FDRE:C->Q            17   0.495   1.001  Inst_VGA_sync/fila_cnt_1 (Inst_VGA_sync/fila_cnt_1)
+     LUT4:I0->O            1   0.561   0.000  Inst_VGA_sync/fila_cnt_and00001 (Inst_VGA_sync/fila_cnt_and00001)
      MUXF5:I1->O           4   0.229   0.499  Inst_VGA_sync/fila_cnt_and0000_f5 (Inst_VGA_sync/fila_cnt_and0000)
      FDRE:R                    0.435          Inst_VGA_sync/fila_cnt_0
     ----------------------------------------
-    Total                      3.114ns (1.720ns logic, 1.394ns route)
-                                       (55.2% logic, 44.8% route)
+    Total                      3.220ns (1.720ns logic, 1.500ns route)
+                                       (53.4% logic, 46.6% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Inst_VGA_sync/h_sync'
@@ -555,7 +1032,7 @@ Delay:               4.557ns (Levels of Logic = 11)
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk_12'
   Clock period: 9.931ns (frequency: 100.690MHz)
-  Total number of paths / destination ports: 248 / 25
+  Total number of paths / destination ports: 247 / 24
 -------------------------------------------------------------------------
 Delay:               4.767ns (Levels of Logic = 4)
   Source:            Inst_VGA_sync/h_count_3 (FF)
@@ -568,7 +1045,7 @@ Delay:               4.767ns (Levels of Logic = 4)
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FD:C->Q               4   0.495   0.607  Inst_VGA_sync/h_count_3 (Inst_VGA_sync/h_count_3)
-     LUT4_L:I0->LO         1   0.561   0.102  Inst_VGA_sync/h_sync_and0000_SW0 (N18)
+     LUT4_L:I0->LO         1   0.561   0.102  Inst_VGA_sync/h_sync_and0000_SW0 (N89)
      LUT4:I3->O            3   0.561   0.453  Inst_VGA_sync/h_sync_and0000 (Inst_VGA_sync/h_sync_and0000)
      LUT4_D:I3->O          7   0.561   0.668  Inst_VGA_sync/h_count_mux0002<0>11 (Inst_VGA_sync/N11)
      LUT2:I1->O            1   0.562   0.000  Inst_VGA_sync/h_count_mux0002<8>1 (Inst_VGA_sync/h_count_mux0002<8>)
@@ -578,75 +1055,104 @@ Delay:               4.767ns (Levels of Logic = 4)
                                        (61.6% logic, 38.4% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_VGA_sync/h_sync'
-  Total number of paths / destination ports: 10 / 10
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk_12'
+  Total number of paths / destination ports: 276 / 69
 -------------------------------------------------------------------------
-Offset:              6.967ns (Levels of Logic = 2)
+Offset:              3.377ns (Levels of Logic = 2)
+  Source:            img_selector<0> (PAD)
+  Destination:       Inst_rom_5/DATA_7 (FF)
+  Destination Clock: clk_12 rising 2.1X
+
+  Data Path: img_selector<0> to Inst_rom_5/DATA_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            76   0.824   1.193  img_selector_0_IBUF (img_selector_0_IBUF)
+     LUT4:I0->O            8   0.561   0.643  Inst_selector_img/Mdecod_rom_enable81 (ena_8)
+     FDE:CE                    0.156          Inst_rom_8/DATA_0
+    ----------------------------------------
+    Total                      3.377ns (1.541ns logic, 1.836ns route)
+                                       (45.6% logic, 54.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Inst_VGA_sync/h_sync'
+  Total number of paths / destination ports: 9 / 9
+-------------------------------------------------------------------------
+Offset:              6.755ns (Levels of Logic = 2)
   Source:            Inst_VGA_sync/ENABLE_V (FF)
-  Destination:       enable (PAD)
+  Destination:       Blue<2> (PAD)
   Source Clock:      Inst_VGA_sync/h_sync falling
 
-  Data Path: Inst_VGA_sync/ENABLE_V to enable
+  Data Path: Inst_VGA_sync/ENABLE_V to Blue<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      FDS_1:C->Q           16   0.495   0.945  Inst_VGA_sync/ENABLE_V (Inst_VGA_sync/ENABLE_V)
-     LUT2:I1->O            6   0.562   0.569  Inst_VGA_sync/enable_HV1 (enable_OBUF)
-     OBUF:I->O                 4.396          enable_OBUF (enable)
+     LUT3:I1->O            1   0.562   0.357  Inst_Desplegador/red_2_mux00001 (Red_2_OBUF)
+     OBUF:I->O                 4.396          Red_2_OBUF (Red<2>)
     ----------------------------------------
-    Total                      6.967ns (5.453ns logic, 1.514ns route)
-                                       (78.3% logic, 21.7% route)
+    Total                      6.755ns (5.453ns logic, 1.302ns route)
+                                       (80.7% logic, 19.3% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'clk_12'
-  Total number of paths / destination ports: 18 / 10
+  Total number of paths / destination ports: 124 / 9
 -------------------------------------------------------------------------
-Offset:              7.801ns (Levels of Logic = 2)
-  Source:            Inst_rom_2/Mrom_rdata_rom0000 (RAM)
+Offset:              9.493ns (Levels of Logic = 6)
+  Source:            Inst_rom_0/Mrom_rdata_rom0000 (RAM)
   Destination:       Blue<2> (PAD)
   Source Clock:      clk_12 rising 2.1X
 
-  Data Path: Inst_rom_2/Mrom_rdata_rom0000 to Blue<2>
+  Data Path: Inst_rom_0/Mrom_rdata_rom0000 to Blue<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     RAMB16BWE:CLKA->DOA1    1   2.107   0.380  Inst_rom_2/Mrom_rdata_rom0000 (addr_dato<1>)
+     RAMB16BWE:CLKA->DOA1    1   2.107   0.423  Inst_rom_0/Mrom_rdata_rom0000 (dato_addr_rom_0<1>)
+     LUT3:I1->O            1   0.562   0.000  Inst_mux_rom/Mmux_mux_data_out_81 (Inst_mux_rom/Mmux_mux_data_out_81)
+     MUXF5:I0->O           1   0.229   0.000  Inst_mux_rom/Mmux_mux_data_out_6_f5_0 (Inst_mux_rom/Mmux_mux_data_out_6_f51)
+     MUXF6:I0->O           1   0.239   0.000  Inst_mux_rom/Mmux_mux_data_out_4_f6_0 (Inst_mux_rom/Mmux_mux_data_out_4_f61)
+     MUXF7:I0->O           1   0.239   0.380  Inst_mux_rom/Mmux_mux_data_out_2_f7_0 (mux_data_out<1>)
      LUT3:I2->O            1   0.561   0.357  Inst_Desplegador/blue_2_mux00001 (Blue_2_OBUF)
      OBUF:I->O                 4.396          Blue_2_OBUF (Blue<2>)
     ----------------------------------------
-    Total                      7.801ns (7.064ns logic, 0.737ns route)
-                                       (90.6% logic, 9.4% route)
+    Total                      9.493ns (8.333ns logic, 1.160ns route)
+                                       (87.8% logic, 12.2% route)
 
 =========================================================================
 Timing constraint: Default path analysis
-  Total number of paths / destination ports: 1 / 1
+  Total number of paths / destination ports: 115 / 9
 -------------------------------------------------------------------------
-Delay:               5.721ns (Levels of Logic = 2)
-  Source:            clk_12 (PAD)
-  Destination:       CLKIN_IBUFG_OUT (PAD)
+Delay:               8.979ns (Levels of Logic = 7)
+  Source:            img_selector<0> (PAD)
+  Destination:       Blue<2> (PAD)
 
-  Data Path: clk_12 to CLKIN_IBUFG_OUT
+  Data Path: img_selector<0> to Blue<2>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUFG:I->O            1   0.968   0.357  Inst_vga_clk_25/CLKIN_IBUFG_INST (CLKIN_IBUFG_OUT_OBUF)
-     OBUF:I->O                 4.396          CLKIN_IBUFG_OUT_OBUF (CLKIN_IBUFG_OUT)
+     IBUF:I->O            76   0.824   1.193  img_selector_0_IBUF (img_selector_0_IBUF)
+     LUT3:I0->O            1   0.561   0.000  Inst_mux_rom/Mmux_mux_data_out_5 (Inst_mux_rom/Mmux_mux_data_out_5)
+     MUXF5:I1->O           1   0.229   0.000  Inst_mux_rom/Mmux_mux_data_out_4_f5 (Inst_mux_rom/Mmux_mux_data_out_4_f5)
+     MUXF6:I1->O           1   0.239   0.000  Inst_mux_rom/Mmux_mux_data_out_3_f6 (Inst_mux_rom/Mmux_mux_data_out_3_f6)
+     MUXF7:I1->O           1   0.239   0.380  Inst_mux_rom/Mmux_mux_data_out_2_f7 (mux_data_out<0>)
+     LUT3:I2->O            1   0.561   0.357  Inst_Desplegador/blue_1_mux00001 (Blue_1_OBUF)
+     OBUF:I->O                 4.396          Blue_1_OBUF (Blue<1>)
     ----------------------------------------
-    Total                      5.721ns (5.364ns logic, 0.357ns route)
-                                       (93.8% logic, 6.2% route)
+    Total                      8.979ns (7.049ns logic, 1.930ns route)
+                                       (78.5% logic, 21.5% route)
 
 =========================================================================
 
 
-Total REAL time to Xst completion: 7.00 secs
-Total CPU time to Xst completion: 4.80 secs
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 10.59 secs
  
 --> 
 
 
-Total memory usage is 541580 kilobytes
+Total memory usage is 562452 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :    0 (   0 filtered)
-Number of infos    :    3 (   0 filtered)
+Number of warnings :   16 (   0 filtered)
+Number of infos    :   44 (   0 filtered)
 

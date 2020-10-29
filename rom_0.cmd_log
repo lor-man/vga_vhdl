@@ -1,0 +1,1 @@
+vhdtdtfi -prj VGA_controlador -o "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_0.vhi" -module rom_0 -template /media/omar/Documentos/xilinx_ubuntu/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work rom_0.vhd 

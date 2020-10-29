@@ -1,47 +1,191 @@
-V3 27
+V3 99
 FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhd" 2020/10/27.00:13:37 P.20131013
-EN work/Desplegador 1603781168 \
+EN work/Desplegador 1603949353 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/Desplegador/Behavioral 1603781169 \
+AR work/Desplegador/Behavioral 1603949354 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Desplegador.vhd" \
-      EN work/Desplegador 1603781168
+      EN work/Desplegador 1603949353
 FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Generador_magen.vhd" 2020/10/27.00:05:47 P.20131013
-EN work/Generador_magen 1603781164 \
+EN work/Generador_magen 1603949313 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Generador_magen.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB ieee/NUMERIC_STD 1381692181
-AR work/Generador_magen/Behavioral 1603781165 \
+AR work/Generador_magen/Behavioral 1603949314 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/Generador_magen.vhd" \
-      EN work/Generador_magen 1603781164
-FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" 2020/10/27.00:45:48 P.20131013
-EN work/rom_2 1603781166 \
+      EN work/Generador_magen 1603949313
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/mux_rom.vhd" 2020/10/28.21:16:57 P.20131013
+EN work/mux_rom 1603949351 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/mux_rom.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/mux_rom/Behavioral 1603949352 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/mux_rom.vhd" \
+      EN work/mux_rom 1603949351
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_0.vhd" 2020/10/28.21:39:53 P.20131013
+EN work/rom_0 1603949317 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_0.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_0/Behavioral 1603949318 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_0.vhd" \
+      EN work/rom_0 1603949317
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_1.vhd" 2020/10/28.21:45:35 P.20131013
+EN work/rom_1 1603949319 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_1.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_1/Behavioral 1603949320 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_1.vhd" \
+      EN work/rom_1 1603949319
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_10.vhd" 2020/10/28.22:08:03 P.20131013
+EN work/rom_10 1603949337 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_10.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_10/Behavioral 1603949338 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_10.vhd" \
+      EN work/rom_10 1603949337
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_11.vhd" 2020/10/28.22:29:22 P.20131013
+EN work/rom_11 1603949339 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_11.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_11/Behavioral 1603949340 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_11.vhd" \
+      EN work/rom_11 1603949339
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_12.vhd" 2020/10/28.22:34:07 P.20131013
+EN work/rom_12 1603949341 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_12.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_12/Behavioral 1603949342 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_12.vhd" \
+      EN work/rom_12 1603949341
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_13.vhd" 2020/10/28.22:39:17 P.20131013
+EN work/rom_13 1603949343 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_13.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_13/Behavioral 1603949344 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_13.vhd" \
+      EN work/rom_13 1603949343
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_14.vhd" 2020/10/28.22:40:34 P.20131013
+EN work/rom_14 1603949345 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_14.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_14/Behavioral 1603949346 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_14.vhd" \
+      EN work/rom_14 1603949345
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_15.vhd" 2020/10/28.22:41:43 P.20131013
+EN work/rom_15 1603949347 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_15.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_15/Behavioral 1603949348 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_15.vhd" \
+      EN work/rom_15 1603949347
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_16.vhd" 2020/10/28.22:42:43 P.20131013
+EN work/rom_16 1603949349 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_16.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_16/Behavioral 1603949350 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_16.vhd" \
+      EN work/rom_16 1603949349
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" 2020/10/28.21:40:01 P.20131013
+EN work/rom_2 1603949321 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
       PB ieee/NUMERIC_STD 1381692181
-AR work/rom_2/Behavioral 1603781167 \
+AR work/rom_2/Behavioral 1603949322 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_2.vhd" \
-      EN work/rom_2 1603781166
+      EN work/rom_2 1603949321
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_3.vhd" 2020/10/28.21:46:03 P.20131013
+EN work/rom_3 1603949323 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_3.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_3/Behavioral 1603949324 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_3.vhd" \
+      EN work/rom_3 1603949323
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_4.vhd" 2020/10/28.21:48:07 P.20131013
+EN work/rom_4 1603949325 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_4.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_4/Behavioral 1603949326 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_4.vhd" \
+      EN work/rom_4 1603949325
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_5.vhd" 2020/10/28.21:51:26 P.20131013
+EN work/rom_5 1603949327 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_5.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_5/Behavioral 1603949328 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_5.vhd" \
+      EN work/rom_5 1603949327
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_6.vhd" 2020/10/28.22:00:10 P.20131013
+EN work/rom_6 1603949329 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_6.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_6/Behavioral 1603949330 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_6.vhd" \
+      EN work/rom_6 1603949329
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_7.vhd" 2020/10/28.22:01:56 P.20131013
+EN work/rom_7 1603949331 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_7.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_7/Behavioral 1603949332 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_7.vhd" \
+      EN work/rom_7 1603949331
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_8.vhd" 2020/10/28.22:04:32 P.20131013
+EN work/rom_8 1603949333 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_8.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_8/Behavioral 1603949334 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_8.vhd" \
+      EN work/rom_8 1603949333
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_9.vhd" 2020/10/28.22:06:35 P.20131013
+EN work/rom_9 1603949335 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_9.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/rom_9/Behavioral 1603949336 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/rom_9.vhd" \
+      EN work/rom_9 1603949335
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/selector_img.vhd" 2020/10/28.21:02:47 P.20131013
+EN work/selector_img 1603949315 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/selector_img.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/selector_img/Behavioral 1603949316 \
+      FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/selector_img.vhd" \
+      EN work/selector_img 1603949315
 FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_clk_25.vhd" 2020/10/26.23:35:05 P.20131013
-EN work/vga_clk_25 1603781160 \
+EN work/vga_clk_25 1603949309 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_clk_25.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 LB UNISIM \
       PH unisim/VCOMPONENTS 1381692182
-AR work/vga_clk_25/BEHAVIORAL 1603781161 \
+AR work/vga_clk_25/BEHAVIORAL 1603949310 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_clk_25.vhd" \
-      EN work/vga_clk_25 1603781160 CP BUFG CP IBUFG CP DCM_SP
+      EN work/vga_clk_25 1603949309 CP BUFG CP IBUFG CP DCM_SP
 FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_sync.vhd" 2020/10/27.00:22:13 P.20131013
-EN work/VGA_sync 1603781162 \
+EN work/VGA_sync 1603949311 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_sync.vhd" \
       PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
-AR work/VGA_sync/Behavioral 1603781163 \
+AR work/VGA_sync/Behavioral 1603949312 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_sync.vhd" \
-      EN work/VGA_sync 1603781162
-FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" 2020/10/26.23:29:41 P.20131013
-EN work/vga_top 1603781170 \
+      EN work/VGA_sync 1603949311
+FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" 2020/10/28.23:28:23 P.20131013
+EN work/vga_top 1603949355 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" \
       PB ieee/std_logic_1164 1381692176
-AR work/vga_top/Behavioral 1603781171 \
+AR work/vga_top/Behavioral 1603949356 \
       FL "/media/omar/Documentos/Archivos v/Cursos/ElbertV2/VGA_controlador/vga_top.vhd" \
-      EN work/vga_top 1603781170 CP vga_clk_25 CP VGA_sync CP Generador_magen \
-      CP rom_2 CP Desplegador
+      EN work/vga_top 1603949355 CP vga_clk_25 CP VGA_sync CP Generador_magen \
+      CP selector_img CP rom_0 CP rom_1 CP rom_2 CP rom_3 CP rom_4 CP rom_5 CP rom_6 \
+      CP rom_7 CP rom_8 CP rom_9 CP rom_10 CP rom_11 CP rom_12 CP rom_13 CP rom_14 \
+      CP rom_15 CP rom_16 CP mux_rom CP Desplegador

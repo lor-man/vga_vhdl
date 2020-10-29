@@ -32,5 +32,53 @@
 <msg type="warning" file="PhysDesignRules" num="812" delta="old" >Dangling pin &lt;<arg fmt="%s" index="1">DIA7</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_2/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
 </msg>
 
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_0/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_0/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA2</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_0/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA3</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_0/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA4</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_0/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA5</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_0/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA6</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_0/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA7</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_0/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA0</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_1/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA1</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_1/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA2</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_1/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA3</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_1/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA4</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_1/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA5</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_1/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA6</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_1/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="812" delta="new" >Dangling pin &lt;<arg fmt="%s" index="1">DIA7</arg>&gt; on block:&lt;<arg fmt="%s" index="2">Inst_rom_1/Mrom_rdata_rom0000</arg>&gt;:&lt;<arg fmt="%s" index="3">RAMB16BWE_RAMB16BWE</arg>&gt;.
+</msg>
+
 </messages>
 

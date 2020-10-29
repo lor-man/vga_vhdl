@@ -5,7 +5,7 @@
     The structure and the elements are likely to change over the next few releases.
     This means code written to parse this file will need to be revisited each subsequent release.-->
 
-  <application stringID="Map" timeStamp="Tue Oct 27 00:46:16 2020">
+  <application stringID="Map" timeStamp="Wed Oct 28 23:30:37 2020">
     <section stringID="User_Env">
       <table stringID="User_EnvVar">
         <column stringID="variable"/>
@@ -33,7 +33,7 @@
         <column stringID="speed"/>
         <row stringID="row" value="0">
           <item stringID="arch" value="Intel(R) Core(TM) i5-2320 CPU @ 3.00GHz"/>
-          <item stringID="speed" value="1823.445 MHz"/>
+          <item stringID="speed" value="1869.880 MHz"/>
         </row>
       </table>
     </section>
@@ -56,23 +56,23 @@
       <section stringID="MAP_DESIGN_SUMMARY">
         <item dataType="int" stringID="MAP_NUM_ERRORS" value="0"/>
         <item dataType="int" stringID="MAP_FILTERED_WARNINGS" value="0"/>
-        <item dataType="int" stringID="MAP_NUM_WARNINGS" value="8"/>
-        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="681008"/>
-        <item stringID="MAP_TOTAL_REAL_TIME" value="3 secs "/>
-        <item stringID="MAP_TOTAL_CPU_TIME" value="2 secs "/>
+        <item dataType="int" stringID="MAP_NUM_WARNINGS" value="31"/>
+        <item UNITS="KB" dataType="int" stringID="MAP_PEAK_MEMORY" value="686492"/>
+        <item stringID="MAP_TOTAL_REAL_TIME" value="9 secs "/>
+        <item stringID="MAP_TOTAL_CPU_TIME" value="3 secs "/>
       </section>
       <section stringID="MAP_SLICE_REPORTING">
-        <item AVAILABLE="1408" dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="44"/>
-        <item AVAILABLE="1408" dataType="int" label="Number of 4 input LUTs" stringID="MAP_NUM_4_INPUT_LUT" value="124">
-          <item dataType="int" label="Number of route-thrus" stringID="MAP_NUM_LUT_RT" value="21"/>
+        <item AVAILABLE="1408" dataType="int" label="Number of Slice Flip Flops" stringID="MAP_NUM_SLICE_FF" value="110"/>
+        <item AVAILABLE="1408" dataType="int" label="Number of 4 input LUTs" stringID="MAP_NUM_4_INPUT_LUT" value="859">
+          <item dataType="int" label="Number of route-thrus" stringID="MAP_NUM_LUT_RT" value="38"/>
         </item>
-        <item AVAILABLE="704" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="67">
+        <item AVAILABLE="704" dataType="int" label="Number of occupied Slices" stringID="MAP_OCCUPIED_SLICES" value="504">
           <item dataType="int" label="Number of Slices containing unrelated logic" stringID="MAP_NUM_SLICE_UNRELATED" value="0"/>
         </item>
       </section>
       <section stringID="MAP_IOB_REPORTING">
         <section stringID="MAP_IOB_DATA">
-          <item AVAILABLE="108" dataType="int" stringID="MAP_AGG_BONDED_IO" value="14"/>
+          <item AVAILABLE="108" dataType="int" stringID="MAP_AGG_BONDED_IO" value="17"/>
         </section>
       </section>
       <section stringID="MAP_HARD_IP_REPORTING">
@@ -224,20 +224,42 @@
             <item label="IBUF/IFD&#xA;Delay" stringID="IBUF_IFD_DELAY" value="0 / 0"/>
           </row>
           <row stringID="row" value="14">
-            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="enable"/>
-            <item stringID="Type" value="IOB"/>
-            <item stringID="Direction" value="OUTPUT"/>
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="img_selector&lt;0>"/>
+            <item stringID="Type" value="IBUF"/>
+            <item stringID="Direction" value="INPUT"/>
             <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>
-            <item label="Drive&#xA;Strength" stringID="DRIVE_STRENGTH" value="12"/>
-            <item label="Slew&#xA;Rate" stringID="SLEW_RATE" value="SLOW"/>
+            <item stringID="Resistor" value="PULLUP"/>
             <item label="IBUF/IFD&#xA;Delay" stringID="IBUF_IFD_DELAY" value="0 / 0"/>
-            <item label="Suspend" stringID="SUSPEND" value="3STATE"/>
+          </row>
+          <row stringID="row" value="15">
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="img_selector&lt;1>"/>
+            <item stringID="Type" value="IBUF"/>
+            <item stringID="Direction" value="INPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>
+            <item stringID="Resistor" value="PULLUP"/>
+            <item label="IBUF/IFD&#xA;Delay" stringID="IBUF_IFD_DELAY" value="0 / 0"/>
+          </row>
+          <row stringID="row" value="16">
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="img_selector&lt;2>"/>
+            <item stringID="Type" value="IBUF"/>
+            <item stringID="Direction" value="INPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>
+            <item stringID="Resistor" value="PULLUP"/>
+            <item label="IBUF/IFD&#xA;Delay" stringID="IBUF_IFD_DELAY" value="0 / 0"/>
+          </row>
+          <row stringID="row" value="17">
+            <item label="IOB&#xA;Name" sort="smart" stringID="IOB_NAME" value="img_selector&lt;3>"/>
+            <item stringID="Type" value="IBUF"/>
+            <item stringID="Direction" value="INPUT"/>
+            <item label="IO&#xA;Standard" sort="smart" stringID="IO_STANDARD" value="LVCMOS33"/>
+            <item stringID="Resistor" value="PULLUP"/>
+            <item label="IBUF/IFD&#xA;Delay" stringID="IBUF_IFD_DELAY" value="0 / 0"/>
           </row>
         </table>
       </section>
       <section stringID="MAP_RPM_MACROS">
         <section stringID="MAP_SHAPE_SECTION">
-          <item dataType="int" stringID="MAP_NUM_SHAPE" value="4"/>
+          <item dataType="int" stringID="MAP_NUM_SHAPE" value="47"/>
         </section>
       </section>
       <section stringID="MAP_GUIDE_REPORT"/>
@@ -255,14 +277,14 @@
         <item stringID="MAP_INITP_05" value="0000000000000000000000000000000000000000000000000000000000000000"/>
         <item stringID="MAP_INITP_06" value="0000000000000000000000000000000000000000000000000000000000000000"/>
         <item stringID="MAP_INITP_07" value="0000000000000000000000000000000000000000000000000000000000000000"/>
-        <item stringID="MAP_INIT_00" value="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
-        <item stringID="MAP_INIT_01" value="FFFFFFFFFFFF92000000DBFFFFFFFFFFFFFFFFFFFFFFFFFFDBFFFFFFFFFFFFFF"/>
-        <item stringID="MAP_INIT_02" value="FFFFFFFFFF6D6D92FF6D6D92FFFFFFFFFFFFFFFFFF922492926D24DBFFFFFFFF"/>
-        <item stringID="MAP_INIT_03" value="FFFFFFFF2449FFFFD9FFDB246DFFFFFFFFFFFFFFFF49B691DA91926DFFFFFFFF"/>
-        <item stringID="MAP_INIT_04" value="FFFFFFFF006DFFFFFFFFFF4949FFFFFFFFFFFFDB00B6FFFFFFFFFF4900FFFFFF"/>
-        <item stringID="MAP_INIT_05" value="FFFFFFFFFFDBD56D4991D5FFFFFFFFFFFFFFFFFFDB24DBFFFFFF9224FFFFFFFF"/>
-        <item stringID="MAP_INIT_06" value="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFDBDBFFFFFFFFFFFFFF"/>
-        <item stringID="MAP_INIT_07" value="FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+        <item stringID="MAP_INIT_00" value="FF24FFFF24FFFFFFFFFFFF00FFFF24FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"/>
+        <item stringID="MAP_INIT_01" value="FF24FFFF00FFFFFFFFFFFF24FFFF00FFFF24FFFF24FFFFFFFFFFFF00FFFF00FF"/>
+        <item stringID="MAP_INIT_02" value="FFFFFF24FF240000242424FF24FFFFFFFFFF00FFFF24FFFFFFFF24FFFF24FFFF"/>
+        <item stringID="MAP_INIT_03" value="FFFFFF24EDE8FF4747FFE8E800FFFFFFFFFFFFFF0043434343474364FFFFFFFF"/>
+        <item stringID="MAP_INIT_04" value="FF00E8EDE8E8BCFFFFBCE8E8E4E824FFFFFF64E8E8E8FF4343FFE8E8E800FFFF"/>
+        <item stringID="MAP_INIT_05" value="FFFF24E8BCE8F1ECECF1E8BDE824FFFFFF00E8E8E8BCF1F1ECF1BCE8E4E400FF"/>
+        <item stringID="MAP_INIT_06" value="FFFFFFFF2400202000002424FFFFFFFFFFFFFF64E8E8ECECECECE4E824FFFFFF"/>
+        <item stringID="MAP_INIT_07" value="FFFFFFFF24FFFFFFFFFFFF24FFFFFFFFFFFFFFFF00FFFFFFFFFFFF24FFFFFFFF"/>
         <item stringID="MAP_INIT_08" value="0000000000000000000000000000000000000000000000000000000000000000"/>
         <item stringID="MAP_INIT_09" value="0000000000000000000000000000000000000000000000000000000000000000"/>
         <item stringID="MAP_INIT_0A" value="0000000000000000000000000000000000000000000000000000000000000000"/>

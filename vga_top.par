@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-omar::  Tue Oct 27 00:46:19 2020
+omar::  Wed Oct 28 23:30:41 2020
 
 par -w -intstyle ise -ol high -t 1 vga_top_map.ncd vga_top.ncd vga_top.pcf 
 
@@ -20,18 +20,18 @@ Device speed data version:  "PRODUCTION 1.42 2013-10-13".
 
 Design Summary Report:
 
- Number of External IOBs                          14 out of 108    12%
+ Number of External IOBs                          17 out of 108    15%
 
-   Number of External Input IOBs                  1
+   Number of External Input IOBs                  5
 
-      Number of External Input IBUFs              1
-        Number of LOCed External Input IBUFs      1 out of 1     100%
+      Number of External Input IBUFs              5
+        Number of LOCed External Input IBUFs      5 out of 5     100%
 
 
-   Number of External Output IOBs                13
+   Number of External Output IOBs                12
 
-      Number of External Output IOBs             13
-        Number of LOCed External Output IOBs     13 out of 13    100%
+      Number of External Output IOBs             12
+        Number of LOCed External Output IOBs     12 out of 12    100%
 
 
    Number of External Bidir IOBs                  0
@@ -39,9 +39,9 @@ Design Summary Report:
 
    Number of BUFGMUXs                        2 out of 24      8%
    Number of DCMs                            1 out of 2      50%
-   Number of RAMB16BWEs                      1 out of 3      33%
-   Number of Slices                         67 out of 704     9%
-      Number of SLICEMs                      0 out of 352     0%
+   Number of RAMB16BWEs                      3 out of 3     100%
+   Number of Slices                        504 out of 704    71%
+      Number of SLICEMs                     78 out of 352    22%
 
 
 
@@ -50,49 +50,51 @@ Placer effort level (-pl):    High
 Placer cost table entry (-t): 1
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 1 secs 
-Finished initial Timing Analysis.  REAL time: 1 secs 
+Starting initial Timing Analysis.  REAL time: 3 secs 
+Finished initial Timing Analysis.  REAL time: 3 secs 
 
 
 Starting Placer
-Total REAL time at the beginning of Placer: 1 secs 
+Total REAL time at the beginning of Placer: 3 secs 
 Total CPU  time at the beginning of Placer: 1 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:21d109b3) REAL time: 2 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:4c8895c3) REAL time: 4 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:21d109b3) REAL time: 2 secs 
+Phase 2.7  Design Feasibility Check (Checksum:4c8895c3) REAL time: 4 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:21d109b3) REAL time: 2 secs 
+Phase 3.31  Local Placement Optimization (Checksum:4c8895c3) REAL time: 4 secs 
 
 Phase 4.2  Initial Clock and IO Placement
 
-Phase 4.2  Initial Clock and IO Placement (Checksum:263aa228) REAL time: 3 secs 
+Phase 4.2  Initial Clock and IO Placement (Checksum:696986af) REAL time: 5 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:263aa228) REAL time: 3 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:696986af) REAL time: 5 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:263aa228) REAL time: 3 secs 
+Phase 6.36  Local Placement Optimization (Checksum:696986af) REAL time: 5 secs 
 
 Phase 7.8  Global Placement
 ........
-..
-Phase 7.8  Global Placement (Checksum:d28d1326) REAL time: 3 secs 
+.........................
+........................
+...........
+Phase 7.8  Global Placement (Checksum:e0c4cc5b) REAL time: 6 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:d28d1326) REAL time: 3 secs 
+Phase 8.5  Local Placement Optimization (Checksum:e0c4cc5b) REAL time: 6 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:d1c4969d) REAL time: 3 secs 
+Phase 9.18  Placement Optimization (Checksum:14289115) REAL time: 6 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:d1c4969d) REAL time: 3 secs 
+Phase 10.5  Local Placement Optimization (Checksum:14289115) REAL time: 6 secs 
 
-Total REAL time to Placer completion: 3 secs 
-Total CPU  time to Placer completion: 2 secs 
+Total REAL time to Placer completion: 6 secs 
+Total CPU  time to Placer completion: 3 secs 
 Writing design to file vga_top.ncd
 
 
@@ -100,32 +102,32 @@ Writing design to file vga_top.ncd
 Starting Router
 
 
-Phase  1  : 450 unrouted;      REAL time: 3 secs 
+Phase  1  : 3518 unrouted;      REAL time: 7 secs 
 
-Phase  2  : 412 unrouted;      REAL time: 3 secs 
+Phase  2  : 3392 unrouted;      REAL time: 7 secs 
 
-Phase  3  : 62 unrouted;      REAL time: 3 secs 
+Phase  3  : 925 unrouted;      REAL time: 7 secs 
 
-Phase  4  : 62 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+Phase  4  : 925 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
 
-Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+Phase  5  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 7 secs 
 
 Updating file: vga_top.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+Phase  6  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
 
-Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+Phase  7  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
 
-Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 3 secs 
+Phase  8  : 0 unrouted; (Setup:0, Hold:0, Component Switching Limit:0)     REAL time: 8 secs 
 WARNING:Route:455 - CLK Net:Inst_VGA_sync/clk_3 may have excessive skew because 
       2 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
 WARNING:Route:455 - CLK Net:Inst_VGA_sync/h_sync may have excessive skew because 
       0 CLK pins and 2 NON_CLK pins failed to route using a CLK template.
 WARNING:Route:455 - CLK Net:Inst_VGA_sync/clk_2 may have excessive skew because 
-      2 CLK pins and 2 NON_CLK pins failed to route using a CLK template.
+      0 CLK pins and 2 NON_CLK pins failed to route using a CLK template.
 
-Total REAL time to Router completion: 3 secs 
-Total CPU time to Router completion: 3 secs 
+Total REAL time to Router completion: 8 secs 
+Total CPU time to Router completion: 5 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -143,14 +145,14 @@ Generating Clock Report
 +---------------------+--------------+------+------+------------+-------------+
 |        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
 +---------------------+--------------+------+------+------------+-------------+
-|              clk_25 | BUFGMUX_X2Y11| No   |   14 |  0.060     |  0.517      |
+|              clk_25 | BUFGMUX_X1Y10| No   |   79 |  0.080     |  0.537      |
 +---------------------+--------------+------+------+------------+-------------+
 |Inst_VGA_sync/h_sync |              |      |      |            |             |
-|                     |         Local|      |   14 |  0.193     |  1.865      |
+|                     |         Local|      |   14 |  0.375     |  1.914      |
 +---------------------+--------------+------+------+------------+-------------+
-| Inst_VGA_sync/clk_3 |         Local|      |    3 |  0.000     |  1.133      |
+| Inst_VGA_sync/clk_3 |         Local|      |    3 |  0.011     |  0.833      |
 +---------------------+--------------+------+------+------------+-------------+
-| Inst_VGA_sync/clk_2 |         Local|      |    4 |  0.349     |  1.268      |
+| Inst_VGA_sync/clk_2 |         Local|      |    4 |  0.000     |  1.433      |
 +---------------------+--------------+------+------+------------+-------------+
 
 * Net Skew is the difference between the minimum and maximum routing
@@ -172,8 +174,8 @@ Asterisk (*) preceding a constraint indicates it was not met.
   Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
                                             |             |    Slack   | Achievable | Errors |    Score   
 ----------------------------------------------------------------------------------------------------------
-  PERIOD analysis for net "Inst_vga_clk_25/ | SETUP       |    35.122ns|     4.877ns|       0|           0
-  CLKFX_BUF" derived from  NET "CLKIN_IBUFG | HOLD        |     0.987ns|            |       0|           0
+  PERIOD analysis for net "Inst_vga_clk_25/ | SETUP       |    35.066ns|     4.933ns|       0|           0
+  CLKFX_BUF" derived from  NET "CLKIN_IBUFG | HOLD        |     0.849ns|            |       0|           0
   _OUT_OBUF" PERIOD = 83.3333333 ns HIGH 50 |             |            |            |        |            
   %                                         |             |            |            |        |            
 ----------------------------------------------------------------------------------------------------------
@@ -192,8 +194,8 @@ Derived Constraints for CLKIN_IBUFG_OUT_OBUF
 |           Constraint          | Requirement |-------------+-------------|-------------+-------------|-------------+-------------|
 |                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    | Derivative  |
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
-|CLKIN_IBUFG_OUT_OBUF           |     83.333ns|     20.000ns|     10.160ns|            0|            0|            0|          248|
-| Inst_vga_clk_25/CLKFX_BUF     |     40.000ns|      4.877ns|          N/A|            0|            0|          248|            0|
+|CLKIN_IBUFG_OUT_OBUF           |     83.333ns|     20.000ns|     10.277ns|            0|            0|            0|          247|
+| Inst_vga_clk_25/CLKFX_BUF     |     40.000ns|      4.933ns|          N/A|            0|            0|          247|            0|
 +-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+-------------+
 
 All constraints were met.
@@ -203,10 +205,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 4 secs 
-Total CPU time to PAR completion: 3 secs 
+Total REAL time to PAR completion: 9 secs 
+Total CPU time to PAR completion: 5 secs 
 
-Peak Memory Usage:  629 MB
+Peak Memory Usage:  635 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.

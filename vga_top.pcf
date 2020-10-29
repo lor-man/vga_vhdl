@@ -1,22 +1,25 @@
 //! **************************************************************************
-// Written by: Map P.20131013 on Tue Oct 27 00:46:16 2020
+// Written by: Map P.20131013 on Wed Oct 28 23:30:36 2020
 //! **************************************************************************
 
 SCHEMATIC START;
-COMP "enable" LOCATE = SITE "P28" LEVEL 1;
-COMP "VSync" LOCATE = SITE "P92" LEVEL 1;
-COMP "clk_12" LOCATE = SITE "P129" LEVEL 1;
-COMP "CLKIN_IBUFG_OUT" LOCATE = SITE "P31" LEVEL 1;
+COMP "img_selector<0>" LOCATE = SITE "P64" LEVEL 1;
+COMP "img_selector<1>" LOCATE = SITE "P68" LEVEL 1;
+COMP "img_selector<2>" LOCATE = SITE "P69" LEVEL 1;
+COMP "img_selector<3>" LOCATE = SITE "P70" LEVEL 1;
 COMP "Blue<1>" LOCATE = SITE "P96" LEVEL 1;
 COMP "Blue<2>" LOCATE = SITE "P98" LEVEL 1;
-COMP "CLK0_OUT" LOCATE = SITE "P32" LEVEL 1;
-COMP "Red<0>" LOCATE = SITE "P103" LEVEL 1;
-COMP "Red<1>" LOCATE = SITE "P104" LEVEL 1;
+COMP "CLKIN_IBUFG_OUT" LOCATE = SITE "P31" LEVEL 1;
 COMP "Green<0>" LOCATE = SITE "P99" LEVEL 1;
-COMP "Red<2>" LOCATE = SITE "P105" LEVEL 1;
 COMP "Green<1>" LOCATE = SITE "P101" LEVEL 1;
 COMP "Green<2>" LOCATE = SITE "P102" LEVEL 1;
 COMP "HSync" LOCATE = SITE "P93" LEVEL 1;
+COMP "VSync" LOCATE = SITE "P92" LEVEL 1;
+COMP "Red<0>" LOCATE = SITE "P103" LEVEL 1;
+COMP "Red<1>" LOCATE = SITE "P104" LEVEL 1;
+COMP "Red<2>" LOCATE = SITE "P105" LEVEL 1;
+COMP "clk_12" LOCATE = SITE "P129" LEVEL 1;
+COMP "CLK0_OUT" LOCATE = SITE "P32" LEVEL 1;
 NET "CLKIN_IBUFG_OUT_OBUF" PERIOD = 83.3333333 ns HIGH 50%;
 SCHEMATIC END;
 

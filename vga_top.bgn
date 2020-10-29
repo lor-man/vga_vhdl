@@ -5,7 +5,7 @@ Loading device for application Rf_Device from file '3s50a.nph' in environment
    "vga_top" is an NCD, version 3.2, device xc3s50a, package tq144, speed -5
 Opened constraints file vga_top.pcf.
 
-Tue Oct 27 00:47:49 2020
+Wed Oct 28 23:30:59 2020
 
 /media/omar/Documentos/xilinx_ubuntu/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g DebugBitstream:No -g Binary:yes -g CRC:Enable -g Reset_on_err:No -g ConfigRate:25 -g ProgPin:PullUp -g DonePin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g UnusedPin:PullDown -g UserID:0xFFFFFFFF -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g LCK_cycle:NoWait -g Security:None -g DonePipe:Yes -g DriveDone:No -g en_sw_gsr:No -g en_porb:Yes -g drive_awake:No -g sw_clk:Startupclk -g sw_gwe_cycle:5 -g sw_gts_cycle:4 vga_top.ncd 
 
@@ -135,7 +135,39 @@ WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
    block:<Inst_rom_2/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
 WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
    block:<Inst_rom_2/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
-DRC detected 0 errors and 8 warnings.  Please see the previously displayed
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<Inst_rom_0/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA0> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA1> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA2> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA3> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA4> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA5> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA6> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+WARNING:PhysDesignRules:812 - Dangling pin <DIA7> on
+   block:<Inst_rom_1/Mrom_rdata_rom0000>:<RAMB16BWE_RAMB16BWE>.
+DRC detected 0 errors and 24 warnings.  Please see the previously displayed
 individual error or warning messages for more details.
 Creating bit map...
 Saving bit stream in "vga_top.bit".
